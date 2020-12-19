@@ -1,0 +1,1 @@
+test('palindrome-checker', () => {})
