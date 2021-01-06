@@ -114,6 +114,7 @@ describe('telephone-number-converter', () => {
 
   TEST_CASES.forEach(element => {
     const { input, expected } = element
+
     test(`telephoneCheck(${input}) should return ${expected}`, () => {
       const result = telephoneCheck(input)
 
